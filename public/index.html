@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Anime Poster Co. — ecom-store demo</title>
+<link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+<header class="site-header">
+<h1>Anime Poster Co.</h1>
+<p class="tagline">Open-source ecommerce demo — 10 placeholder posters</p>
+<button id="cart-toggle" type="button">Cart (<span id="cart-count">0</span>)</button>
+</header>
+<main>
+<section id="products" class="product-grid" aria-label="Products"></section>
+</main>
+<aside id="cart" class="cart hidden" aria-label="Shopping cart">
+<h2>Your cart</h2>
+<ul id="cart-items"></ul>
+<p class="cart-total">Total: <span id="cart-total">$0.00</span></p>
+<button id="checkout" type="button">Checkout</button>
+<p id="checkout-result" class="result"></p>
+</aside>
+<footer><small>MIT licensed · placeholder images via picsum.photos</small></footer>
+<script src="/app.js"></script>
+</body>
+</html>
