@@ -1,0 +1,17 @@
+{
+    "name": "ecom-store",
+    "version": "0.1.0",
+    "description": "Open-source e-commerce demo for anime posters with Node.js/Express backend, vanilla JS frontend, and ERPNext integration stub.",
+    "main": "server.js",
+    "scripts": {
+          "start": "node server.js",
+          "dev": "node --watch server.js"
+    },
+    "keywords": ["ecommerce", "anime", "posters", "express", "erpnext", "open-source"],
+    "license": "MIT",
+    "dependencies": {
+          "express": "^4.19.2",
+          "cors": "^2.8.5",
+          "dotenv": "^16.4.5"
+    }
+}
